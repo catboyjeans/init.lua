@@ -150,7 +150,6 @@ vim.api.nvim_create_autocmd('LspAttach', {
 -- Language servers configuration setup calls
 -- clangd15
 lsp.clangd.setup{
-    cmd = {'clangd15'},
     capabilities = capabilities,
 }
 

@@ -25,9 +25,7 @@ vim.opt.swapfile = false
 vim.opt.backup = false
 
 -- Only aply for BSD
-if _os == "FreeBSD" then
-    vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
-end
+vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 
 vim.opt.undofile = true
 
